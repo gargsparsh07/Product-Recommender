@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Recommender System</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0ebf8;
+      color: #333;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      color: #5e2ca5;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p.description {
+      color: #6b5ca5;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .recommendation-box {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 2rem;
+      width: 100%;
+      max-width: 600px;
+      text-align: left;
+    }
+    .recommendation-box h2 {
+      color: #5e2ca5;
+      margin-bottom: 0.5rem;
+    }
+    .recommendation-box ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+    .recommendation-box li::before {
+      content: "-";
+      margin-right: 0.5rem;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>Product Recommender System</h1>
+  <p class="description">Get smart product recommendations powered by Machine Learning</p>
+
+  <div class="recommendation-box">
+    <h2>Example Recommendations</h2>
+    <p><strong>User ID:</strong> 12345</p>
+    <p><strong>Top 5 Recommended Products:</strong></p>
+    <ul>
+      <li>Product 1</li>
+      <li>Product 2</li>
+      <li>Product 3</li>
+      <li>Product 4</li>
+      <li>Product 5</li>
+    </ul>
+  </div>
+
+  <footer>
+    Built using Python and Machine Learning | Hosted on GitHub Pages
+  </footer>
+</body>
+</html>
